@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86" started-at="2022-03-01T16:02:06Z" finished-at="2022-03-01T16:02:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86" started-at="2022-03-01T16:02:06Z" finished-at="2022-03-01T16:02:06Z">
+      <class name="org.tng.LearnTestNg">
+        <test-method status="PASS" signature="Tc1()[pri:0, instance:org.tng.LearnTestNg@100fc185]" name="Tc1" duration-ms="35" started-at="2022-03-01T21:32:06Z" finished-at="2022-03-01T21:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc1 -->
+        <test-method status="PASS" signature="Tc2()[pri:0, instance:org.tng.LearnTestNg@100fc185]" name="Tc2" duration-ms="0" started-at="2022-03-01T21:32:06Z" finished-at="2022-03-01T21:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc2 -->
+        <test-method status="PASS" signature="Tc3()[pri:0, instance:org.tng.LearnTestNg@100fc185]" name="Tc3" duration-ms="8" started-at="2022-03-01T21:32:06Z" finished-at="2022-03-01T21:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc3 -->
+        <test-method status="PASS" signature="Tc4()[pri:0, instance:org.tng.LearnTestNg@100fc185]" name="Tc4" duration-ms="0" started-at="2022-03-01T21:32:06Z" finished-at="2022-03-01T21:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc4 -->
+        <test-method status="PASS" signature="Tc5()[pri:0, instance:org.tng.LearnTestNg@100fc185]" name="Tc5" duration-ms="6" started-at="2022-03-01T21:32:06Z" finished-at="2022-03-01T21:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc5 -->
+      </class> <!-- org.tng.LearnTestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
