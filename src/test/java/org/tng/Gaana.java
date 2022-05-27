@@ -18,7 +18,7 @@ public class Gaana extends BaseClass{
 		WebElement email = driver.findElement(By.id("mat-input-0"));
 		email.sendKeys("afir4u@gmail.com");
        WebElement pass = driver.findElement(By.id("mat-input-1"));
-       pass.sendKeys("Rifaudeen@123");
+       pass.sendKeys("Rifaudeen@1234");
        WebElement log = driver.findElement(By.xpath("//button[text()=' Log In ']"));
        log.click();
        Thread.sleep(2000);
@@ -32,19 +32,19 @@ public class Gaana extends BaseClass{
        change.click();
        
        WebElement cur = driver.findElement(ByAngularOptions.xpath("//input[@formcontrolname='currentpassword']"));
-       cur.sendKeys("Rifaudeen@123");
+       cur.sendKeys("Rifaudeen@1234");
        
        Thread.sleep(1000);
        
        WebElement newpass = driver.findElement(ByAngularOptions.xpath("//input[@formcontrolname='password']"));
-       newpass.sendKeys("Rifaudeen@1234");
+       newpass.sendKeys("Rifaudeen@123");
        
        WebElement confirmPass = driver.findElement(ByAngularOptions.xpath("//input[@formcontrolname='confirmPassword']"));
-        confirmPass.sendKeys("Rifaudeen@1234");	
+        confirmPass.sendKeys("Rifaudeen@123");	
          
         
         WebElement confrim = driver.findElement(ByAngularOptions.xpath("//button[@class='mat-focus-indicator search-btn mat-raised-button mat-button-base']"));
-        confrim.click();
+        
         
 	
 	}
